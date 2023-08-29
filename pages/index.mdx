@@ -1,11 +1,94 @@
-# Introduction
- 
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+import { Cards, Card } from "nextra/components";
+import Image from "next/image";
+import Logo from "../assets/logo.png";
 
-## What is Nextra?
+export const LogoHeader = () => (
+	<div
+		style={{
+			display: "flex",
+			alignItems: "center",
+			gap: "0.5rem",
+			fontSize: "1.5rem",
+			fontWeight: "bold",
+		}}
+	>
+		<Image src={Logo} alt="Fast-Weigh" height={32} width={32} />
+		<span> Fast-Weigh Documentation</span>
+	</div>
+);
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
+# <LogoHeader />
 
-## Documentation
+[Fast-Weigh](https://www.tacinsight.com) is a modern cloud-based truck ticketing, ordering, and dispatching platform.
 
-The documentation is available at [https://nextra.site](https://nextra.site).
+Get an overview of Fast-Weigh's features, integrations, and how to use them.
+
+## Most popular
+
+<Cards>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+</Cards>
+
+## Learn the basics
+
+<Cards>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+	<Card
+		icon={<span>🖨️</span>}
+		title="How to Print a Ticket"
+		href="/scale/how-to-print-a-ticket"
+	/>
+</Cards>

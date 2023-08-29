@@ -1,15 +1,25 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
-  }
+	"index": {
+		"title": "Welcome / Overview"
+	},
+	"another": "Another Page",
+	"advanced": "Advanced (A Folder)",
+	"about": {
+		"title": "About Fast-Weigh ↗",
+		"type": "page",
+		"href": "https://www.tacinsight.com/",
+		"newWindow": true
+	},
+	"portal": {
+		"title": "Web Portal ↗",
+		"type": "page",
+		"href": "https://portal.fast-weigh.com",
+		"newWindow": true
+	},
+	"support": {
+		"title": "Contact Support ↗",
+		"type": "page",
+		"href": "https://www.tacinsight.com/support",
+		"newWindow": true
+	}
 }
